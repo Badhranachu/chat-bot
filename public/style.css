@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  #chat-box {
+    font-size: 15px;
+  }
+  
+  .user-msg {
+    text-align: right;
+    color: #0d6efd;
+    margin-bottom: 8px;
+  }
+  
+  .bot-msg {
+    text-align: left;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+
+
+  .dot {
+    animation: blink 1s infinite;
+    font-weight: bold;
+  }
+  .dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes blink {
+    0%, 20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
